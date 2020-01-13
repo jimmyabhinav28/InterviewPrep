@@ -51,9 +51,29 @@ public class Sudoku {
      *
      * @param initialSudoku
      */
-    public static void solveSudoku(int[][] initialSudoku) {
+    public static boolean solveSudoku(int[][] initialSudoku) {
 
         int[][] sudokuIntialMatrix = inputInitialSudoku();
+        for(int i=0;i<sudokuIntialMatrix.length;i++)
+        {
+            for(int j=0;j<sudokuIntialMatrix[0].length;j++)
+            {
+                if(sudokuIntialMatrix[i][j]!=0)
+                    continue;
+                else
+                {
+                    for(int val=1;val<9;val++)
+                    {
+//                        sudokuIntialMatrix[i][j]=val;
+                        if(doesNumberSatisfySudokuConstraints(initialSudoku,i,j,val))
+                        {
+                            return solveSudoku(initialSudoku);
+                        }
+
+                    }
+                }
+            }
+        }
 
     }
 
