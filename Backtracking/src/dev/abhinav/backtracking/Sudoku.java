@@ -52,7 +52,7 @@ public class Sudoku {
      * @param initialSudoku
      */
     public static boolean solveSudoku(Integer[][] initialSudoku) {
-        System.out.println("inside solve sudoku");
+//        System.out.println("inside solve sudoku");
 
         //check if the sudoku is already solved..this is the recursion base case
         if (isSodukoSolved(initialSudoku))
@@ -64,23 +64,23 @@ public class Sudoku {
                     //this cell is already considered in the solution
                     continue;
                 } else {
-                    System.out.println("Considering row:" + i + "  column:" + j + " for replacement");
+//                    System.out.println("Considering row:" + i + "  column:" + j + " for replacement");
                     for (int val = 1; val <= 9; val++) {
                         if (doesNumberSatisfySudokuConstraints(initialSudoku, i, j, val)) {
-                            System.out.println("looks like value of " + val + " might work");
+//                            System.out.println("looks like value of " + val + " might work");
                             initialSudoku[i][j] = new Integer(val);
                             if (!solveSudoku(initialSudoku)) {
-                                System.out.println("looks like  " + val + " did not work");
+//                                System.out.println("looks like  " + val + " did not work");
                                 continue;
                             } else {
-                                System.out.println("looks like  " + val + " worked");
+//                                System.out.println("looks like  " + val + " worked");
                                 return true;
                             }
                         }
                         //try the next value
 
                     }
-                    System.out.println("nothing worked for this cell..backtracking");
+//                    System.out.println("nothing worked for the cell with row: "+i+" and column: "+j+" ..backtracking");
                     initialSudoku[i][j] = new Integer(0);
                     return false;
                 }
@@ -117,6 +117,12 @@ public class Sudoku {
     }
 
 
+    /**
+     * Sudoku is solved if there are no more zeros
+     *
+     * @param sudokuMatrix
+     * @return
+     */
     private static boolean isSodukoSolved(Integer[][] sudokuMatrix) {
 
         for (int i = 0; i < sudokuMatrix.length; i++) {
@@ -126,7 +132,7 @@ public class Sudoku {
 
             }
         }
-        System.out.println("Sudoku is solved");
+//        System.out.println("Sudoku is solved");
         return true;
     }
 
