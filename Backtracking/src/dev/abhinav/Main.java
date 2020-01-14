@@ -1,13 +1,25 @@
 package dev.abhinav;
 
-import dev.abhinav.backtracking.Sudoku;
+import dev.abhinav.backtracking.NQueens;
+import dev.abhinav.backtracking.Sudoku2;
 import dev.abhinav.utils.MatrixUtils;
 
 public class Main {
     private static MatrixUtils<Integer> integerMatrixUtils = new MatrixUtils<Integer>();
 
     public static void main(String[] args) {
-        testSudoku();
+//        testSudoku();
+        testNQueens();
+    }
+
+    public static void testNQueens() {
+        Integer[][] maze = new Integer[5][5];
+        MatrixUtils<Integer> matrixUtils = new MatrixUtils<Integer>();
+
+        matrixUtils.initialise2DIntegerMatrixWithZeros(maze);
+        NQueens.solveNQueens(maze, 5);
+        matrixUtils.print2DMatrix(maze);
+
     }
 
     public static void testSudoku() {
@@ -25,7 +37,7 @@ public class Main {
                 };
 
 
-        Sudoku.solveSudoku(initialSudoku);
+        Sudoku2.solveSudoku(initialSudoku);
 //        System.out.println("\n\nSolved Sudoku is\n\n ");
         integerMatrixUtils.print2DMatrix(initialSudoku);
 
