@@ -17,7 +17,7 @@ public class Main {
         MatrixUtils<Integer> matrixUtils = new MatrixUtils<Integer>();
 
         matrixUtils.initialise2DIntegerMatrixWithZeros(maze);
-        NQueens.solveNQueens(maze, 5);
+        NQueens.solveNQueens(maze,maze.length );
         matrixUtils.print2DMatrix(maze);
 
     }
