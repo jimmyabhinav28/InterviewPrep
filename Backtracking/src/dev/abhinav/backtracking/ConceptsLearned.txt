@@ -1,2 +1,4 @@
 Backtracking and DFS are similar.
 infact DFS is a subset of backtracking.
+
+Rat in a maze problem is not really a backtracking problem.

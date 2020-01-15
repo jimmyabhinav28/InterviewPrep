@@ -10,7 +10,7 @@ public class SimplestRatInAMaze {
      * In the maze matrix, 0 means the block is a dead end and 1 means the block can be used in the path
      * from source to destination.
      * <p>
-     * A valid path should be marked with all 1s. Find one valid path. The valid path(s) should be marked with 1s
+     * A valid path should be marked with all 2s. Find one valid path. The valid path(s) should be marked with 1s
      * <p>
      * Possible variations: Can the rat move multiple steps at once
      * What if the rat can move in all directions
@@ -60,7 +60,7 @@ public class SimplestRatInAMaze {
      * In the maze matrix, 0 means the block is a dead end and 1 means the block can be used in the path
      * from source to destination.
      * <p>
-     * A valid path should be marked with all 1s. Find ALL valid paths. The valid path(s) should be marked with 1s
+     * A valid path should be marked with all 2s. Find ALL valid paths. The valid path(s) should be marked with 1s
      * <p>
      * Possible variations: Can the rat move multiple steps at once
      * What if the rat can move in all directions
