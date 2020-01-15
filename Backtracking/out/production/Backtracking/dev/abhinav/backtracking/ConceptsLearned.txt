@@ -1,2 +1,0 @@
-Backtracking and DFS are similar.
-infact DFS is a subset of backtracking.

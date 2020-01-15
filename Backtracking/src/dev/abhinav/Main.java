@@ -1,7 +1,8 @@
 package dev.abhinav;
 
 import dev.abhinav.backtracking.NQueens;
-import dev.abhinav.backtracking.SimplestRatInAMaze;
+import dev.abhinav.recursion.NDoorsMKeyProblem;
+import dev.abhinav.recursion.SimplestRatInAMaze;
 import dev.abhinav.backtracking.Sudoku2;
 import dev.abhinav.utils.MatrixUtils;
 
@@ -12,7 +13,8 @@ public class Main {
 //        testSudoku();
 //        testNQueens();
 //        testSimpleRatInAMazeSinglePath();
-        testSimpleRatInAMazeAllPath();
+//        testSimpleRatInAMazeAllPath();
+        testNDoorsMKeys();
     }
 
     public static void testNQueens() {
@@ -71,6 +73,18 @@ public class Main {
         MatrixUtils<Integer> matrixUtils = new MatrixUtils<Integer>();
         matrixUtils.print2DMatrix(maze);
 
+    }
+
+    public static void testNDoorsMKeys()
+    {
+        Integer[][]maze={
+                {0, 0, 1,1},
+                {1, 0, 1,1},
+                {1, 1, 1,0}
+        };
+
+        boolean isFeasible=NDoorsMKeyProblem.canReachLastCellWithAtMaxMKeys(maze,2);
+        System.out.println(isFeasible);
     }
 
 

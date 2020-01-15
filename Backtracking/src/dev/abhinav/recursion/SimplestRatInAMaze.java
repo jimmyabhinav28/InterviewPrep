@@ -1,4 +1,4 @@
-package dev.abhinav.backtracking;
+package dev.abhinav.recursion;
 
 public class SimplestRatInAMaze {
     /**
