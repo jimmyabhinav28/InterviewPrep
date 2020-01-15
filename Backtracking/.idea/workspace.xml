@@ -2,11 +2,12 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="8de82af8-b9c5-4e08-9da5-f9ced3049f4a" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/dev/abhinav/backtracking/ConceptsLearned.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/dev/abhinav/backtracking/SimplestRatInAMaze.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/Backtracking/dev/abhinav/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Backtracking/dev/abhinav/Main.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Backtracking/dev/abhinav/backtracking/NQueens.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Backtracking/dev/abhinav/backtracking/NQueens.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/dev/abhinav/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/dev/abhinav/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/dev/abhinav/backtracking/NQueens.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/dev/abhinav/backtracking/NQueens.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -17,11 +18,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/dev/abhinav/Main.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="67">
-              <caret line="15" column="40" selection-start-line="15" selection-start-column="40" selection-end-line="15" selection-end-column="40" />
+            <state relative-caret-position="215">
+              <caret line="69" column="49" selection-start-line="69" selection-start-column="27" selection-end-line="69" selection-end-column="49" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -59,8 +60,26 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/dev/abhinav/backtracking/NQueens.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="128">
-              <caret line="98" column="51" lean-forward="true" selection-start-line="98" selection-start-column="51" selection-end-line="98" selection-end-column="51" />
+            <state relative-caret-position="201">
+              <caret line="117" column="13" selection-start-line="117" selection-start-column="13" selection-end-line="117" selection-end-column="13" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/dev/abhinav/backtracking/SimplestRatInAMaze.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="165">
+              <caret line="23" column="51" selection-end-line="99" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/dev/abhinav/backtracking/ConceptsLearned.txt">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="15">
+              <caret line="1" column="39" selection-start-line="1" selection-start-column="39" selection-end-line="1" selection-end-column="39" />
             </state>
           </provider>
         </entry>
@@ -84,7 +103,10 @@
         <option value="$PROJECT_DIR$/src/dev/abhinav/backtracking/Sudoku2.java" />
         <option value="$PROJECT_DIR$/src/dev/abhinav/utils/MatrixUtils.java" />
         <option value="$PROJECT_DIR$/src/dev/abhinav/backtracking/NQueens.java" />
+        <option value="$PROJECT_DIR$/src/dev/abhinav/backtracking/RatInAMaze.java" />
+        <option value="$PROJECT_DIR$/src/dev/abhinav/backtracking/ConceptsLearned.txt" />
         <option value="$PROJECT_DIR$/src/dev/abhinav/Main.java" />
+        <option value="$PROJECT_DIR$/src/dev/abhinav/backtracking/SimplestRatInAMaze.java" />
       </list>
     </option>
   </component>
@@ -138,7 +160,7 @@
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1579007774204" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1579111342758" />
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -227,7 +249,7 @@
       <window_info anchor="bottom" id="Version Control" order="3" />
       <window_info anchor="bottom" id="Message" order="4" />
       <window_info anchor="bottom" id="Find" order="5" />
-      <window_info active="true" anchor="bottom" id="Run" order="6" visible="true" weight="0.51627904" />
+      <window_info active="true" anchor="bottom" id="Run" order="6" visible="true" weight="0.40465117" />
       <window_info anchor="bottom" id="Debug" order="7" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="8" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="9" weight="0.4" />
@@ -266,18 +288,32 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/dev/abhinav/backtracking/NQueens.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="128">
-          <caret line="98" column="51" lean-forward="true" selection-start-line="98" selection-start-column="51" selection-end-line="98" selection-end-column="51" />
+        <state relative-caret-position="201">
+          <caret line="117" column="13" selection-start-line="117" selection-start-column="13" selection-end-line="117" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/dev/abhinav/backtracking/ConceptsLearned.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="15">
+          <caret line="1" column="39" selection-start-line="1" selection-start-column="39" selection-end-line="1" selection-end-column="39" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/dev/abhinav/Main.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="67">
-          <caret line="15" column="40" selection-start-line="15" selection-start-column="40" selection-end-line="15" selection-end-column="40" />
+        <state relative-caret-position="215">
+          <caret line="69" column="49" selection-start-line="69" selection-start-column="27" selection-end-line="69" selection-end-column="49" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/dev/abhinav/backtracking/SimplestRatInAMaze.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="165">
+          <caret line="23" column="51" selection-end-line="99" />
         </state>
       </provider>
     </entry>

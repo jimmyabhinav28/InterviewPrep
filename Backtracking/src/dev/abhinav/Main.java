@@ -1,6 +1,7 @@
 package dev.abhinav;
 
 import dev.abhinav.backtracking.NQueens;
+import dev.abhinav.backtracking.SimplestRatInAMaze;
 import dev.abhinav.backtracking.Sudoku2;
 import dev.abhinav.utils.MatrixUtils;
 
@@ -9,7 +10,9 @@ public class Main {
 
     public static void main(String[] args) {
 //        testSudoku();
-        testNQueens();
+//        testNQueens();
+//        testSimpleRatInAMazeSinglePath();
+        testSimpleRatInAMazeAllPath();
     }
 
     public static void testNQueens() {
@@ -17,7 +20,7 @@ public class Main {
         MatrixUtils<Integer> matrixUtils = new MatrixUtils<Integer>();
 
         matrixUtils.initialise2DIntegerMatrixWithZeros(maze);
-        NQueens.solveNQueens(maze,maze.length );
+        NQueens.solveNQueens(maze, maze.length);
         matrixUtils.print2DMatrix(maze);
 
     }
@@ -43,5 +46,32 @@ public class Main {
 
 
     }
+
+    public static void testSimpleRatInAMazeSinglePath() {
+        Integer[][] maze =
+                       {{1, 0, 0, 0,0},
+                        {1, 1, 1, 1,1},
+                        {0, 1, 0, 1,1},
+                        {1, 1, 1, 0,1}};
+
+        SimplestRatInAMaze.solveRatInMazeSinglePath(maze, 0, 0);
+        MatrixUtils<Integer> matrixUtils = new MatrixUtils<Integer>();
+        matrixUtils.print2DMatrix(maze);
+
+    }
+
+    public static void testSimpleRatInAMazeAllPath() {
+        Integer[][] maze =
+                {{1, 0, 0, 0,0},
+                        {1, 1, 1, 1,1},
+                        {0, 1, 0, 1,1},
+                        {1, 1, 1, 0,1}};
+
+        SimplestRatInAMaze.solveRatInMazeAllPaths(maze, 0, 0);
+        MatrixUtils<Integer> matrixUtils = new MatrixUtils<Integer>();
+        matrixUtils.print2DMatrix(maze);
+
+    }
+
 
 }
