@@ -2,14 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="8de82af8-b9c5-4e08-9da5-f9ced3049f4a" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/dev/abhinav/recursion/NDoorsMKeyProblem.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/dev/abhinav/recursion/RatsMazeWhenMovementIsAllowedInAllDirections.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Backtracking/dev/abhinav/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Backtracking/dev/abhinav/Main.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Backtracking/dev/abhinav/backtracking/ConceptsLearned.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Backtracking/dev/abhinav/backtracking/SimplestRatInAMaze.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/dev/abhinav/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/dev/abhinav/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/dev/abhinav/backtracking/ConceptsLearned.txt" beforeDir="false" afterPath="$PROJECT_DIR$/src/dev/abhinav/ConceptsLearned.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/dev/abhinav/backtracking/SimplestRatInAMaze.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/dev/abhinav/recursion/SimplestRatInAMaze.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -20,11 +14,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/dev/abhinav/Main.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="150">
-              <caret line="82" column="24" selection-start-line="82" selection-start-column="24" selection-end-line="82" selection-end-column="24" />
+            <state relative-caret-position="210">
+              <caret line="86" column="39" selection-start-line="86" selection-start-column="39" selection-end-line="86" selection-end-column="39" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -80,8 +74,28 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/dev/abhinav/recursion/NDoorsMKeyProblem.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="66">
+            <state relative-caret-position="360">
               <caret line="24" column="13" selection-start-line="24" selection-start-column="13" selection-end-line="24" selection-end-column="13" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/dev/abhinav/recursion/RatsMazeWhenMovementIsAllowedInAllDirections.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="87">
+              <caret line="14" column="33" lean-forward="true" selection-start-line="14" selection-start-column="18" selection-end-line="14" selection-end-column="33" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="method#recurseForRightCell#1;class#RatsMazeWhenMovementIsAllowedInAllDirections#0" />
+                <element signature="e#2014#2025#0" expanded="true" />
+                <element signature="method#recurseForRightCell#2;class#RatsMazeWhenMovementIsAllowedInAllDirections#0" />
+                <element signature="e#2558#2569#0" expanded="true" />
+                <element signature="method#recurseForRightCell#3;class#RatsMazeWhenMovementIsAllowedInAllDirections#0" />
+                <element signature="e#3102#3113#0" expanded="true" />
+                <element signature="method#recurseForRightCell#1;class#RatsMazeWhenMovementIsAllowedInAllDirections#0" />
+                <element signature="e#3112#3123#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -121,6 +135,7 @@
         <option value="$PROJECT_DIR$/src/dev/abhinav/recursion/NDoors1KeyProblem.java" />
         <option value="$PROJECT_DIR$/src/dev/abhinav/recursion/NDoorsMKeyProblem.java" />
         <option value="$PROJECT_DIR$/src/dev/abhinav/Main.java" />
+        <option value="$PROJECT_DIR$/src/dev/abhinav/recursion/RatsMazeWhenMovementIsAllowedInAllDirections.java" />
       </list>
     </option>
   </component>
@@ -181,7 +196,7 @@
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1579115504905" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1579167610934" />
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
@@ -231,7 +246,7 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="64" y="-11" width="1303" height="780" extended-state="6" />
+    <frame x="65" y="-4" width="1301" height="772" extended-state="6" />
     <editor active="true" />
     <layout>
       <window_info id="Designer" order="0" />
@@ -247,7 +262,7 @@
       <window_info anchor="bottom" id="Version Control" order="3" />
       <window_info anchor="bottom" id="Message" order="4" />
       <window_info anchor="bottom" id="Find" order="5" />
-      <window_info active="true" anchor="bottom" id="Run" order="6" visible="true" weight="0.40465117" />
+      <window_info anchor="bottom" id="Run" order="6" weight="0.40465117" />
       <window_info anchor="bottom" id="Debug" order="7" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="8" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="9" weight="0.4" />
@@ -333,19 +348,37 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/dev/abhinav/Main.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="210">
+          <caret line="86" column="39" selection-start-line="86" selection-start-column="39" selection-end-line="86" selection-end-column="39" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/dev/abhinav/recursion/NDoorsMKeyProblem.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="66">
+        <state relative-caret-position="360">
           <caret line="24" column="13" selection-start-line="24" selection-start-column="13" selection-end-line="24" selection-end-column="13" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/dev/abhinav/Main.java">
+    <entry file="file://$PROJECT_DIR$/src/dev/abhinav/recursion/RatsMazeWhenMovementIsAllowedInAllDirections.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="150">
-          <caret line="82" column="24" selection-start-line="82" selection-start-column="24" selection-end-line="82" selection-end-column="24" />
+        <state relative-caret-position="87">
+          <caret line="14" column="33" lean-forward="true" selection-start-line="14" selection-start-column="18" selection-end-line="14" selection-end-column="33" />
           <folding>
             <element signature="imports" expanded="true" />
+            <element signature="method#recurseForRightCell#1;class#RatsMazeWhenMovementIsAllowedInAllDirections#0" />
+            <element signature="e#2014#2025#0" expanded="true" />
+            <element signature="method#recurseForRightCell#2;class#RatsMazeWhenMovementIsAllowedInAllDirections#0" />
+            <element signature="e#2558#2569#0" expanded="true" />
+            <element signature="method#recurseForRightCell#3;class#RatsMazeWhenMovementIsAllowedInAllDirections#0" />
+            <element signature="e#3102#3113#0" expanded="true" />
+            <element signature="method#recurseForRightCell#1;class#RatsMazeWhenMovementIsAllowedInAllDirections#0" />
+            <element signature="e#3112#3123#0" expanded="true" />
           </folding>
         </state>
       </provider>
