@@ -2,6 +2,7 @@ package dev.abhinav;
 
 import dev.abhinav.backtracking.NQueens;
 import dev.abhinav.recursion.NDoorsMKeyProblem;
+import dev.abhinav.recursion.RatsMazeWhenMovementIsAllowedInAllDirections;
 import dev.abhinav.recursion.SimplestRatInAMaze;
 import dev.abhinav.backtracking.Sudoku2;
 import dev.abhinav.utils.MatrixUtils;
@@ -14,7 +15,8 @@ public class Main {
 //        testNQueens();
 //        testSimpleRatInAMazeSinglePath();
 //        testSimpleRatInAMazeAllPath();
-        testNDoorsMKeys();
+//        testNDoorsMKeys();
+        testRatsMazeAllDirections();
     }
 
     public static void testNQueens() {
@@ -87,5 +89,16 @@ public class Main {
         System.out.println(isFeasible);
     }
 
+    public static void testRatsMazeAllDirections()
+    {
+        Integer[][]maze={
+                {1, 0, 0,0},
+                {1, 1, 0,1},
+                {1, 1, 0,0},
+                {0, 1, 1,1}
+        };
+
+        RatsMazeWhenMovementIsAllowedInAllDirections.findAPathWhenAllDirectionsAreAllowed(maze);
+    }
 
 }
