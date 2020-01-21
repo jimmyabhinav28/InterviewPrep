@@ -1,4 +1,4 @@
-package dev.abhinav.utils;
+package dev.anksandabhi.utils;
 
 public class MatrixUtils<T> {
 

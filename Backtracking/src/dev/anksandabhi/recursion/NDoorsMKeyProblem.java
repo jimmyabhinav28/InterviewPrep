@@ -1,10 +1,10 @@
-package dev.abhinav.recursion;
+package dev.anksandabhi.recursion;
 
 /**
  * Problem statement
  * Given an N * N binary maze where a 0 denotes that the position can be visited and a 1 denotes that the position
  * cannot be visited without a key, the task is to find whether it is possible to visit the bottom-right cell from
- * the top-left cell with AT MAX M keys along the way. If possible then print “Yes” else print “No”.
+ * the top-left cell with AT MAX M keys along the way. If possible then print “Yes�? else print “No�?.
  */
 public class NDoorsMKeyProblem {
 

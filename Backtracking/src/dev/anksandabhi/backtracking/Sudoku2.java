@@ -1,4 +1,4 @@
-package dev.abhinav.backtracking;
+package dev.anksandabhi.backtracking;
 
 public class Sudoku2 {
     private static boolean doesNumberSatisfySudokuConstraints(Integer[][] sudokuMaze, int row, int column, int num) {

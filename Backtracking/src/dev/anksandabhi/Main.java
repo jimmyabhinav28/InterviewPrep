@@ -1,11 +1,11 @@
-package dev.abhinav;
+package dev.anksandabhi;
 
-import dev.abhinav.backtracking.NQueens;
-import dev.abhinav.recursion.NDoorsMKeyProblem;
-import dev.abhinav.recursion.RatsMazeWhenMovementIsAllowedInAllDirections;
-import dev.abhinav.recursion.SimplestRatInAMaze;
-import dev.abhinav.backtracking.Sudoku2;
-import dev.abhinav.utils.MatrixUtils;
+import dev.anksandabhi.backtracking.NQueens;
+import dev.anksandabhi.backtracking.Sudoku2;
+import dev.anksandabhi.recursion.NDoorsMKeyProblem;
+import dev.anksandabhi.recursion.RatsMazeWhenMovementIsAllowedInAllDirections;
+import dev.anksandabhi.recursion.SimplestRatInAMaze;
+import dev.anksandabhi.utils.MatrixUtils;
 
 public class Main {
     private static MatrixUtils<Integer> integerMatrixUtils = new MatrixUtils<Integer>();

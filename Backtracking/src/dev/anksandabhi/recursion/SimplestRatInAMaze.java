@@ -1,4 +1,4 @@
-package dev.abhinav.recursion;
+package dev.anksandabhi.recursion;
 
 public class SimplestRatInAMaze {
     /**

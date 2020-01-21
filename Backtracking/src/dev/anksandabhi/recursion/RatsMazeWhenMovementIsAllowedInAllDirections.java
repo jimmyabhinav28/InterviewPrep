@@ -1,9 +1,9 @@
-package dev.abhinav.recursion;
-
-import dev.abhinav.utils.MatrixUtils;
+package dev.anksandabhi.recursion;
 
 import java.util.ArrayList;
 import java.util.List;
+
+import dev.anksandabhi.utils.MatrixUtils;
 
 /**
  * Consider a rat placed at (0, 0) in a square matrix m[ ][ ] of order n and has to reach the destination at (n-1, n-1).

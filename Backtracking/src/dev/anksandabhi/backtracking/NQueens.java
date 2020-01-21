@@ -1,4 +1,4 @@
-package dev.abhinav.backtracking;
+package dev.anksandabhi.backtracking;
 
 public class NQueens {
 
