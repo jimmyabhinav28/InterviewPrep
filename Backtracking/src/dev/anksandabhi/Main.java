@@ -5,7 +5,11 @@ import dev.anksandabhi.backtracking.Sudoku2;
 import dev.anksandabhi.recursion.NDoorsMKeyProblem;
 import dev.anksandabhi.recursion.RatsMazeWhenMovementIsAllowedInAllDirections;
 import dev.anksandabhi.recursion.SimplestRatInAMaze;
+import dev.anksandabhi.recursion.SlotsAndOptions;
 import dev.anksandabhi.utils.MatrixUtils;
+
+import java.util.Arrays;
+import java.util.List;
 
 public class Main {
     private static MatrixUtils<Integer> integerMatrixUtils = new MatrixUtils<Integer>();
@@ -16,7 +20,8 @@ public class Main {
 //        testSimpleRatInAMazeSinglePath();
 //        testSimpleRatInAMazeAllPath();
 //        testNDoorsMKeys();
-        testRatsMazeAllDirections();
+//        testRatsMazeAllDirections();
+        testNSlotsMOptionsInteger();
     }
 
     public static void testNQueens() {
@@ -89,7 +94,7 @@ public class Main {
         System.out.println(isFeasible);
     }
 
-    public static void testRatsMazeAllDirections()
+   /* public static void testRatsMazeAllDirections()
     {
         Integer[][]maze={
                 {1, 0, 0,0},
@@ -99,6 +104,23 @@ public class Main {
         };
 
         RatsMazeWhenMovementIsAllowedInAllDirections.findAPathWhenAllDirectionsAreAllowed(maze);
+    }
+*/
+
+    public static void testNSlotsMOptionsInteger()
+    {
+        //using the case of generation of binary numbers
+        Integer[] arr={0,1};
+        List<Integer> options= Arrays.asList(arr);
+        int numberOfSlots=3;
+        SlotsAndOptions<Integer> slotsAndOptions=new SlotsAndOptions<Integer>();
+        List<List<Integer>> allFillings=slotsAndOptions.generateAllPossibleFillings(numberOfSlots,options);
+
+        for(List<Integer> filling: allFillings)
+        {
+            System.out.println(filling.toString());
+        }
+
     }
 
 }
