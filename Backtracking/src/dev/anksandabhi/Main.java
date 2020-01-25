@@ -2,10 +2,7 @@ package dev.anksandabhi;
 
 import dev.anksandabhi.backtracking.NQueens;
 import dev.anksandabhi.backtracking.Sudoku2;
-import dev.anksandabhi.recursion.NDoorsMKeyProblem;
-import dev.anksandabhi.recursion.RatsMazeWhenMovementIsAllowedInAllDirections;
-import dev.anksandabhi.recursion.SimplestRatInAMaze;
-import dev.anksandabhi.recursion.SlotsAndOptions;
+import dev.anksandabhi.recursion.*;
 import dev.anksandabhi.utils.MatrixUtils;
 
 import java.util.Arrays;
@@ -21,7 +18,9 @@ public class Main {
 //        testSimpleRatInAMazeAllPath();
 //        testNDoorsMKeys();
 //        testRatsMazeAllDirections();
-        testNSlotsMOptionsInteger();
+//        testNSlotsMOptionsInteger();
+//        testPermuationsOfElementsWithGivenLength();
+        testSubsetGeneration();
     }
 
     public static void testNQueens() {
@@ -123,4 +122,33 @@ public class Main {
 
     }
 
+    public static void testPermuationsOfElementsWithGivenLength()
+    {
+        Character[] allCharacters={'a','b','c','d','e'};
+        List<Character> elements=Arrays.asList(allCharacters);
+        Permutations<Character> characterPermutations =new Permutations<>();
+        int lengthOfPermutation=6;
+        List<List<Character>> allPermutations= characterPermutations.getAllPermutations(elements,lengthOfPermutation);
+        System.out.println("number of permuations "+allPermutations.size()+"\n\n\n");
+        for(List<Character> permutation: allPermutations)
+        {
+            System.out.println(permutation.toString());
+        }
+    }
+
+    public static void testCombinationsOfElementsWithGivenLength()
+    {}
+
+
+    public static void testSubsetGeneration()
+    {
+        Character[] allCharacters={'a','b','c'};
+        List<Character> elements=Arrays.asList(allCharacters);
+        SubsetsAndCombinations<Character> characterSubsetsAndCombinations=new SubsetsAndCombinations<>();
+        List<List<Character>> allSubsets=characterSubsetsAndCombinations.getAllSubsets(elements);
+        for(List<Character> subset:allSubsets)
+        {
+            System.out.println(subset.toString()+",");
+        }
+    }
 }
