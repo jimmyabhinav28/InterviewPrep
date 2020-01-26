@@ -20,7 +20,8 @@ public class Main {
 //        testRatsMazeAllDirections();
 //        testNSlotsMOptionsInteger();
 //        testPermuationsOfElementsWithGivenLength();
-        testSubsetGeneration();
+        testCombinationsOfElementsWithGivenLength();
+//        testSubsetGeneration();
     }
 
     public static void testNQueens() {
@@ -126,9 +127,9 @@ public class Main {
     {
         Character[] allCharacters={'a','b','c','d','e'};
         List<Character> elements=Arrays.asList(allCharacters);
-        Permutations<Character> characterPermutations =new Permutations<>();
+        PermutationsAndCombinations<Character> characterPermutationsAndCombinations =new PermutationsAndCombinations<>();
         int lengthOfPermutation=6;
-        List<List<Character>> allPermutations= characterPermutations.getAllPermutations(elements,lengthOfPermutation);
+        List<List<Character>> allPermutations= characterPermutationsAndCombinations.getAllPermutations(elements,lengthOfPermutation);
         System.out.println("number of permuations "+allPermutations.size()+"\n\n\n");
         for(List<Character> permutation: allPermutations)
         {
@@ -137,7 +138,20 @@ public class Main {
     }
 
     public static void testCombinationsOfElementsWithGivenLength()
-    {}
+    {
+        Character[] allCharacters={'a','b','c','d','e'};
+        List<Character> elements=Arrays.asList(allCharacters);
+        PermutationsAndCombinations<Character> characterPermutationsAndCombinations =new PermutationsAndCombinations<>();
+
+        int lengthOfCombination=3;
+        List<List<Character>> allCombinations=characterPermutationsAndCombinations.allCombinationsOfGivenLength(elements,lengthOfCombination);
+
+        System.out.println("number of combinations "+allCombinations.size()+"\n\n\n");
+        for(List<Character> combination: allCombinations)
+        {
+            System.out.println(combination.toString());
+        }
+    }
 
 
     public static void testSubsetGeneration()
