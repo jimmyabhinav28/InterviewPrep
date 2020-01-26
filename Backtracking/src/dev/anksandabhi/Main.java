@@ -1,5 +1,6 @@
 package dev.anksandabhi;
 
+import dev.anksandabhi.backtracking.KnightsTour;
 import dev.anksandabhi.backtracking.NQueens;
 import dev.anksandabhi.backtracking.Sudoku2;
 import dev.anksandabhi.recursion.*;
@@ -20,10 +21,11 @@ public class Main {
 //        testRatsMazeAllDirections();
 //        testNSlotsMOptionsInteger();
 //        testPermuationsOfElementsWithGivenLength();
-        testCombinationsOfElementsWithGivenLength();
+//        testCombinationsOfElementsWithGivenLength();
 //        testSubsetGeneration();
-        testSubsetGenerationInteger();
+//        testSubsetGenerationInteger();
 //        testGetAllSubsetsOfGivenSum();
+        testKnightsTour();
     }
 
     public static void testNQueens() {
@@ -180,5 +182,10 @@ public class Main {
                 System.out.println(subset.toString() + ",");
             }
         }
+    }
+
+    private static void testKnightsTour()
+    {
+        KnightsTour.solveKnightsTour(3,10);
     }
 }
