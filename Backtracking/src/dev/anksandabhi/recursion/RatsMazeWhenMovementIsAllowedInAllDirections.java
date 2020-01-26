@@ -13,7 +13,7 @@ import dev.anksandabhi.utils.MatrixUtils;
  * The directions in which the rat can move are ‘U'(up), ‘D'(down), ‘L’ (left), ‘R’ (right).
  */
 public class RatsMazeWhenMovementIsAllowedInAllDirections {
-
+/*
     public static void findAPathWhenAllDirectionsAreAllowed(Integer[][] maze) {
         Integer[][] visited = new Integer[maze.length][maze[0].length];
         MatrixUtils<Integer> matrixUtils = new MatrixUtils<>();
@@ -198,5 +198,5 @@ public class RatsMazeWhenMovementIsAllowedInAllDirections {
 //        System.out.println("No move worked from this cell");
         return false;
     }
-
+*/
 }
