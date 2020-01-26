@@ -2,10 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="8de82af8-b9c5-4e08-9da5-f9ced3049f4a" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/dev/anksandabhi/backtracking/KnightsTour.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Backtracking/dev/anksandabhi/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Backtracking/dev/anksandabhi/Main.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/results.log" beforeDir="false" afterPath="$PROJECT_DIR$/results.log" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/dev/anksandabhi/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/dev/anksandabhi/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/dev/anksandabhi/backtracking/KnightsTour.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/dev/anksandabhi/backtracking/KnightsTour.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -56,8 +56,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/dev/anksandabhi/backtracking/KnightsTour.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="276">
-              <caret line="22" column="3" lean-forward="true" selection-start-line="22" selection-start-column="3" selection-end-line="22" selection-end-column="3" />
+            <state relative-caret-position="216">
+              <caret line="33" column="9" selection-end-line="134" />
               <folding>
                 <element signature="imports" expanded="true" />
                 <element signature="method#initializeMazeWithNegative#0;class#KnightsTour#0" />
@@ -82,9 +82,10 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/dev/anksandabhi/Main.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="142">
-              <caret line="187" column="5" lean-forward="true" selection-start-line="187" selection-start-column="5" selection-end-line="187" selection-end-column="5" />
+            <state relative-caret-position="171">
+              <caret line="188" column="38" selection-start-line="188" selection-start-column="38" selection-end-line="188" selection-end-column="38" />
               <folding>
+                <element signature="e#6965#6966#0" expanded="true" />
                 <element signature="e#6991#6992#0" expanded="true" />
               </folding>
             </state>
@@ -188,7 +189,7 @@
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1580070289284" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1580070591937" />
     <property name="last_opened_file_path" value="$USER_HOME$/paytmMoney/IdeaProjects/data-search" />
   </component>
   <component name="RecentsManager">
@@ -382,9 +383,10 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/dev/anksandabhi/Main.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="142">
-          <caret line="187" column="5" lean-forward="true" selection-start-line="187" selection-start-column="5" selection-end-line="187" selection-end-column="5" />
+        <state relative-caret-position="171">
+          <caret line="188" column="38" selection-start-line="188" selection-start-column="38" selection-end-line="188" selection-end-column="38" />
           <folding>
+            <element signature="e#6965#6966#0" expanded="true" />
             <element signature="e#6991#6992#0" expanded="true" />
           </folding>
         </state>
@@ -392,8 +394,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/dev/anksandabhi/backtracking/KnightsTour.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="276">
-          <caret line="22" column="3" lean-forward="true" selection-start-line="22" selection-start-column="3" selection-end-line="22" selection-end-column="3" />
+        <state relative-caret-position="216">
+          <caret line="33" column="9" selection-end-line="134" />
           <folding>
             <element signature="imports" expanded="true" />
             <element signature="method#initializeMazeWithNegative#0;class#KnightsTour#0" />

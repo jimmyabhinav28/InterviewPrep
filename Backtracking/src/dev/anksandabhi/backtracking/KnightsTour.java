@@ -7,19 +7,19 @@ import java.util.List;
  * The Knight's tour problem using backtracking is a NP complete problem.
  * The run time as observed depends on the size of the maze, and the order in which you try the moves from the cell
  * This program runs fine, but takes a lot of time for 8 x 8 maze
- *
+ * <p>
  * It is also to be noted that the knights tour may or may not have a solution always
  * When does it have a solution..
- *
+ * <p>
  * Read this article
  * http://www.math.cmu.edu/~nkomarov/21-110/knighttour.pdf
- *
+ * <p>
  * An m X n chessboard with m < n has a knight's tour unless one or more of these three conditions holds:
  * (a) m and n are both odd;
  * (b) m = 1, 2, or 4; or
  * (c) m = 3 and n = 4, 6, or 8
- *
- * i have tried with a 5 * 3 matrix and a 3 * 10 matrix, they both work
+ * <p>
+ * i have tried with a 5 * 4 matrix and a 3 * 10 matrix, they both work
  */
 public class KnightsTour {
 
@@ -27,9 +27,11 @@ public class KnightsTour {
         int[][] maze = new int[numberOfRows][numberOfColumns];
         maze = initializeMazeWithNegative(maze);
         boolean toreturn = solveKnightsTour(maze, 0, 0, 0);
-//        if (toreturn) {
-        printMaze(maze);
-//        }
+        if (toreturn) {
+            printMaze(maze);
+        } else {
+            System.out.println("No solution");
+        }
 
     }
 

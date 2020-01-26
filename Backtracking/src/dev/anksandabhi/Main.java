@@ -186,6 +186,6 @@ public class Main {
 
     private static void testKnightsTour()
     {
-        KnightsTour.solveKnightsTour(3,10);
+        KnightsTour.solveKnightsTour(4,4);
     }
 }
