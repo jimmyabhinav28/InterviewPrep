@@ -26,7 +26,8 @@ public class Main {
 //        testSubsetGenerationInteger();
 //        testGetAllSubsetsOfGivenSum();
 //        testKnightsTour();
-        testFindMinimumNumberOfSquaresInRectangle();
+        testGetAllPathsInRatsMaze();
+//        testFindMinimumNumberOfSquaresInRectangle();
     }
 
     public static void testNQueens() {
@@ -84,6 +85,21 @@ public class Main {
         SimplestRatInAMaze.solveRatInMazeAllPaths(maze, 0, 0);
         MatrixUtils<Integer> matrixUtils = new MatrixUtils<Integer>();
         matrixUtils.print2DMatrix(maze);
+
+    }
+
+    public static void testGetAllPathsInRatsMaze() {
+        Integer[][] maze =
+                       {{1, 0, 0, 0, 0},
+                        {2, 3, 4, 5, 6},
+                        {0, 7, 0, 8, 9},
+                        {10, 11, 12, 14, 13}};
+
+        List<List<Integer>> paths=SimplestRatInAMaze.getAllPathsInRatsMaze(maze, 0, 0);
+       for(List<Integer> path: paths)
+       {
+           System.out.println(path);
+       }
 
     }
 

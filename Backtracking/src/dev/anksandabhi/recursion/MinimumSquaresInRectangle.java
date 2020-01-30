@@ -17,6 +17,7 @@ public class MinimumSquaresInRectangle {
         }
          int smallerNumber=x;
          int largerNumber=y;
+
          if(x>y) {
              smallerNumber = y;
              largerNumber=x;
@@ -27,7 +28,7 @@ public class MinimumSquaresInRectangle {
 
          int result=(int)(largerNumber/smallerNumber);
          int remainder=largerNumber%smallerNumber;
-         result=result+findMinimumNumberOfSquaresInRectangle(remainder,smallerNumber);
+         result=result+ findMinimumNumberOfSquaresInRectangle(remainder,smallerNumber);
 
          return result;
     }

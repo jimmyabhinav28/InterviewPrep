@@ -1,5 +1,8 @@
 package dev.anksandabhi.recursion;
 
+import java.util.ArrayList;
+import java.util.List;
+
 public class SimplestRatInAMaze {
     /**
      * A Maze is given as N*N binary matrix of blocks where
@@ -96,4 +99,54 @@ public class SimplestRatInAMaze {
         return false;
 
     }
+
+    public static List<List<Integer>> getAllPathsInRatsMaze(Integer[][] maze, int row, int column) {
+
+//        System.out.println("Finding all paths..checking for cell <" + row + "," + column + ">");
+        if (row == maze.length - 1 && column == maze[0].length - 1) {
+//            System.out.println("REACHED DESTINATION cell <" + row + "," + column + "> ");
+            List<Integer> path = new ArrayList<>();
+            path.add(maze[row][column]);
+            List<List<Integer>> paths = new ArrayList<>();
+            paths.add(path);
+            return paths;
+        }
+        if (row >= maze.length || column >= maze[0].length)
+            return null; // the first return case was not matched, hence we are not in the last cell, and have overshot the maze limits
+        if (maze[row][column] == 0) {
+//            System.out.println("cell <" + row + "," + column + "> is not a part of a path");
+            return null;
+        }
+        List<List<Integer>> pathsWhileMovingToRight = getAllPathsInRatsMaze(maze, row, column + 1);
+        List<List<Integer>> pathWhileMovingDownwards = getAllPathsInRatsMaze(maze, row + 1, column);
+
+        List<List<Integer>> paths = null;
+        if (pathsWhileMovingToRight == null && pathWhileMovingDownwards == null)
+            return paths;
+
+        paths = new ArrayList<>();
+        if (pathsWhileMovingToRight != null) {
+            for (List<Integer> pathWhileMovingToRight : pathsWhileMovingToRight) {
+                List<Integer> path = new ArrayList<Integer>(pathWhileMovingToRight);
+                path.add(0, maze[row][column]);
+                paths.add(path);
+            }
+        }
+
+        if (pathWhileMovingDownwards != null) {
+            for (List<Integer> pathWhileMovingDownward : pathWhileMovingDownwards) {
+                List<Integer> path = new ArrayList<Integer>(pathWhileMovingDownward);
+                path.add(0, maze[row][column]);
+                paths.add(path);
+            }
+//            System.out.println("cell <" + row + "," + column + "> is  a part of a path");
+        }
+
+        return paths;
+//        System.out.println("cell <" + row + "," + column + "> is not a part of a path");
+//            maze[row][column] = 0;
+
+    }
+
+
 }
