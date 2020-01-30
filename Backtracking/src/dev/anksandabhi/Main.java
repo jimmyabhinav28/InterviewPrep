@@ -25,7 +25,8 @@ public class Main {
 //        testSubsetGeneration();
 //        testSubsetGenerationInteger();
 //        testGetAllSubsetsOfGivenSum();
-        testKnightsTour();
+//        testKnightsTour();
+        testFindMinimumNumberOfSquaresInRectangle();
     }
 
     public static void testNQueens() {
@@ -184,8 +185,14 @@ public class Main {
         }
     }
 
+    public static void testFindMinimumNumberOfSquaresInRectangle()
+    {
+        int result=MinimumSquaresInRectangle.findMinimumNumberOfSquaresInRectangle(-7,-13);
+        System.out.println(result);
+    }
+
     private static void testKnightsTour()
     {
-        KnightsTour.solveKnightsTour(4,4);
+        KnightsTour.solveKnightsTour(3,10);
     }
 }
