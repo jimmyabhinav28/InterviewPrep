@@ -2,16 +2,15 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="8de82af8-b9c5-4e08-9da5-f9ced3049f4a" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/../Arrays/src/dev/anksandabhi/arrays/CollectionsPrep.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Arrays/src/dev/anksandabhi/arrays/FindOccurenceInSortedArrayWithRepeatedElements.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Arrays/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Arrays/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Arrays/out/production/Arrays/dev/anksandabhi/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/../Arrays/out/production/Arrays/dev/anksandabhi/Main.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Arrays/out/production/Arrays/dev/anksandabhi/arrays/BinarySearch.class" beforeDir="false" afterPath="$PROJECT_DIR$/../Arrays/out/production/Arrays/dev/anksandabhi/arrays/BinarySearch.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Arrays/src/dev/anksandabhi/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Arrays/src/dev/anksandabhi/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Arrays/src/dev/anksandabhi/arrays/BinarySearch.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Arrays/src/dev/anksandabhi/arrays/BinarySearch.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../JavaStuff/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../JavaStuff/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../JavaStuff/out/production/JavaStuff/dev/anksandabhi/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/../JavaStuff/out/production/JavaStuff/dev/anksandabhi/Main.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../JavaStuff/out/production/JavaStuff/dev/anksandabhi/javastuffp1/CacheObject.class" beforeDir="false" afterPath="$PROJECT_DIR$/../JavaStuff/out/production/JavaStuff/dev/anksandabhi/javastuffp1/CacheObject.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../JavaStuff/out/production/JavaStuff/dev/anksandabhi/javastuffp1/LRUCache.class" beforeDir="false" afterPath="$PROJECT_DIR$/../JavaStuff/out/production/JavaStuff/dev/anksandabhi/javastuffp1/LRUCache.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../JavaStuff/out/production/JavaStuff/dev/anksandabhi/javastuffp1/LRUCacheComparator.class" beforeDir="false" afterPath="$PROJECT_DIR$/../JavaStuff/out/production/JavaStuff/dev/anksandabhi/javastuffp1/LRUCacheComparator.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../JavaStuff/src/dev/anksandabhi/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/../JavaStuff/src/dev/anksandabhi/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../JavaStuff/src/dev/anksandabhi/javastuffp1/CacheObject.java" beforeDir="false" afterPath="$PROJECT_DIR$/../JavaStuff/src/dev/anksandabhi/javastuffp1/CacheObject.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../JavaStuff/src/dev/anksandabhi/javastuffp1/LRUCache.java" beforeDir="false" afterPath="$PROJECT_DIR$/../JavaStuff/src/dev/anksandabhi/javastuffp1/LRUCache.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../JavaStuff/src/dev/anksandabhi/javastuffp1/LRUCacheComparator.java" beforeDir="false" afterPath="$PROJECT_DIR$/../JavaStuff/src/dev/anksandabhi/javastuffp1/LRUCacheComparator.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />

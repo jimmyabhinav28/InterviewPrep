@@ -19,7 +19,7 @@ public class BinarySearch<T extends Comparable> {
             throw new RuntimeException("elements are not sorted");
 
 
-        System.out.println("\n\n\nsearching for " + element + " in " + elements.sutoString());
+        System.out.println("\n\n\nsearching for " + element + " in " + elements.toString());
         System.out.println("beginIndex is  " + beginIndex + " and endIndex is " + endIndex);
 
 

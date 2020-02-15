@@ -1,0 +1,11 @@
+BeginIndex is 0   EndIndex is 12   midIndex is :6
+checking boundary conditions
+boundary result is -2
+BeginIndex is 7   EndIndex is 12   midIndex is :9
+checking boundary conditions
+boundary result is -2
+BeginIndex is 10   EndIndex is 12   midIndex is :11
+checking boundary conditions
+boundary result is -2
+size of list is 13
+11
