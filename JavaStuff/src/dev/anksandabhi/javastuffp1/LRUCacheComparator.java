@@ -2,9 +2,12 @@ package dev.anksandabhi.javastuffp1;
 
 import java.util.Comparator;
 
-public class LRUCacheComparator implements Comparator<CacheObject> {
+public class LRUCacheComparator<T extends CacheObject> implements Comparator<T>
+{
+
+
     @Override
-    public int compare(CacheObject obj1, CacheObject obj2) {
-        return obj1.cacheAccessTime.compareTo(obj2.cacheAccessTime);
+    public int compare(T t, T t1) {
+        return t.cacheAccessTime.compareTo(t1.cacheAccessTime);
     }
 }

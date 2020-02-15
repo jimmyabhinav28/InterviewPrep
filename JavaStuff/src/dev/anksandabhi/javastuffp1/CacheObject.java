@@ -2,7 +2,7 @@ package dev.anksandabhi.javastuffp1;
 
 import java.time.LocalDateTime;
 
-public class CacheObject<T extends Comparable<T>> implements Comparable<CacheObject<T>> {
+public class CacheObject<T> {
     public CacheObject(T value) {
         this.value = value;
     }
@@ -23,13 +23,14 @@ public class CacheObject<T extends Comparable<T>> implements Comparable<CacheObj
     }
 
 
-    @Override
+   /* @Override
     public int compareTo(CacheObject<T> cacheObject) {
-        return this.value.compareTo(cacheObject.value);
+        return this.cacheAccessTime.compareTo(cacheObject.cacheAccessTime);
     }
-
+*/
     @Override
     public String toString() {
         return value.toString();
+//        return value.toString()+"\n Access time"+cacheAccessTime.toString();
     }
 }

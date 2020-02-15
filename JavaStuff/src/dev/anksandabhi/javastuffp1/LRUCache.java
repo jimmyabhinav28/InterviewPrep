@@ -8,7 +8,7 @@ public class LRUCache<T extends Comparable<T>> {
     int cacheSize;
 
     public LRUCache(int cacheSize) {
-        cache = new TreeSet<>();
+        cache = new TreeSet<>(new LRUCacheComparator<>());
         this.cacheSize = cacheSize;
     }
 
