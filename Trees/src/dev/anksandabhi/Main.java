@@ -7,6 +7,7 @@ public class Main {
 //        testInorderRecursive();
 //        testPreorderRecursive();
 //        testPostorderRecursive();
+        testLevelOrderRecursive();
 
     }
 
@@ -55,5 +56,11 @@ public class Main {
     {
         BinaryTreeTraversals traversal=new BinaryTreeTraversals();
         System.out.println(traversal.postorderTraversal(getIntegerBinaryTree()));
+    }
+
+    private static void testLevelOrderRecursive()
+    {
+        BinaryTreeTraversals traversal=new BinaryTreeTraversals();
+        System.out.println(traversal.levelorderTraversal(getIntegerBinaryTree()));
     }
 }
