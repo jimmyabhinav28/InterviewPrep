@@ -1,30 +1,31 @@
 package dev.anksandabhi;
 
+
 import java.util.List;
 
-public class BinaryTreeFromTraversalResult<T> {
+public class BinaryTreeFromTraversalResult {
 
-    public BinaryTreeNode<T> getBinaryTreeGivenInorderTraversal(List<BinaryTreeNode<T>> inorderTraversalResult)
+    public BinaryTreeNode getBinaryTreeGivenInorderTraversal(List<BinaryTreeNode> inorderTraversalResult)
     {
-        BinaryTreeNode<T> root=new BinaryTreeNode<>();
+        BinaryTreeNode root=new BinaryTreeNode<>();
         return root;
     }
 
-    public BinaryTreeNode<T> getBinaryTreeGivenInorderAndPostOrderTraversal(List<BinaryTreeNode<T>> preorderTraversalResult,List<BinaryTreeNode<T>> postorderTraversalResult)
+    public BinaryTreeNode getBinaryTreeGivenInorderAndPostOrderTraversal(List<BinaryTreeNode> preorderTraversalResult, List<BinaryTreeNode> postorderTraversalResult)
     {
-        BinaryTreeNode<T> root=new BinaryTreeNode<>();
+        BinaryTreeNode root=new BinaryTreeNode<>();
         return root;
     }
 
-    public BinaryTreeNode<T> getBinaryTreeGivenInorderAndPreOrderTraversal(List<BinaryTreeNode<T>> preorderTraversalResult,List<BinaryTreeNode<T>> postorderTraversalResult)
+    public BinaryTreeNode getBinaryTreeGivenInorderAndPreOrderTraversal(List<BinaryTreeNode> preorderTraversalResult,List<BinaryTreeNode> postorderTraversalResult)
     {
-        BinaryTreeNode<T> root=new BinaryTreeNode<>();
+        BinaryTreeNode root=new BinaryTreeNode<>();
         return root;
     }
 
-    public BinaryTreeNode<T> getBinaryTreeGivenPreOrderAndPostOrderTraversal(List<BinaryTreeNode<T>> preorderTraversalResult,List<BinaryTreeNode<T>> postorderTraversalResult)
+    public BinaryTreeNode getBinaryTreeGivenPreOrderAndPostOrderTraversal(List<BinaryTreeNode> preorderTraversalResult,List<BinaryTreeNode> postorderTraversalResult)
     {
-        BinaryTreeNode<T> root=new BinaryTreeNode<>();
+        BinaryTreeNode root=new BinaryTreeNode<>();
         return root;
     }
 

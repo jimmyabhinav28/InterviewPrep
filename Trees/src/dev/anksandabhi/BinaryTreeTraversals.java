@@ -2,6 +2,7 @@ package dev.anksandabhi;
 
 import java.util.ArrayList;
 import java.util.List;
+import java.util.TreeMap;
 
 public class BinaryTreeTraversals {
 
@@ -67,5 +68,30 @@ public class BinaryTreeTraversals {
         }
 
         return result;
+    }
+
+    public TreeMap<Integer, ArrayList<BinaryTreeNode>> verticalOrderTraversal(BinaryTreeNode root) {
+        TreeMap<Integer, ArrayList<BinaryTreeNode>> verticalOrderTraversalResult = new TreeMap<>();
+
+        verticalOrderTraversal(root, verticalOrderTraversalResult, 0);
+
+        return verticalOrderTraversalResult;
+    }
+
+    private void verticalOrderTraversal(BinaryTreeNode root, TreeMap<Integer, ArrayList<BinaryTreeNode>> verticalLevelMap, Integer verticalLevel) {
+        if (root == null)
+            return;
+        if (verticalLevelMap.get(verticalLevel) == null) {
+            ArrayList<BinaryTreeNode> listAtThisVerticalLevel = new ArrayList<>();
+            listAtThisVerticalLevel.add(root);
+            verticalLevelMap.put(verticalLevel, listAtThisVerticalLevel);
+        } else {
+            ArrayList<BinaryTreeNode> listAtThisVerticalLevel = verticalLevelMap.get(verticalLevel);
+            listAtThisVerticalLevel.add(root);
+            verticalLevelMap.put(verticalLevel, listAtThisVerticalLevel);
+        }
+
+        verticalOrderTraversal(root.getLeft(), verticalLevelMap, verticalLevel - 1);
+        verticalOrderTraversal(root.getRight(), verticalLevelMap, verticalLevel + 1);
     }
 }

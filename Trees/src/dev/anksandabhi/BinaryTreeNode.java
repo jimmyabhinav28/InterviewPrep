@@ -1,6 +1,6 @@
 package dev.anksandabhi;
 
-public class BinaryTreeNode<T> {
+public class BinaryTreeNode<T extends Comparable> implements Comparable {
     @Override
     public String toString() {
         return "BinaryTreeNode{" +
@@ -39,6 +39,13 @@ public class BinaryTreeNode<T> {
     }
 
 
+    @Override
+    public boolean equals(Object o) {
+        return this.value.equals(((BinaryTreeNode<T>) o).getValue());
+    }
 
-
+    @Override
+    public int compareTo(Object o) {
+        return this.value.compareTo(((BinaryTreeNode<T>) o).getValue());
+    }
 }
