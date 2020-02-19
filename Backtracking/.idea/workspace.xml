@@ -2,15 +2,13 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="8de82af8-b9c5-4e08-9da5-f9ced3049f4a" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/../Arrays/src/dev/anksandabhi/arrays/CollectionsPrep.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Arrays/src/dev/anksandabhi/arrays/FindOccurenceInSortedArrayWithRepeatedElements.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Arrays/src/dev/anksandabhi/arrays/FindPivotInSortedRotatedArray.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../Arrays/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Arrays/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../Arrays/out/production/Arrays/dev/anksandabhi/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/../Arrays/out/production/Arrays/dev/anksandabhi/Main.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Arrays/out/production/Arrays/dev/anksandabhi/arrays/BinarySearch.class" beforeDir="false" afterPath="$PROJECT_DIR$/../Arrays/out/production/Arrays/dev/anksandabhi/arrays/BinarySearch.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Arrays/out/production/Arrays/dev/anksandabhi/arrays/FindOccurenceInSortedArrayWithRepeatedElements.class" beforeDir="false" afterPath="$PROJECT_DIR$/../Arrays/out/production/Arrays/dev/anksandabhi/arrays/FindOccurenceInSortedArrayWithRepeatedElements.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Arrays/results.txt" beforeDir="false" afterPath="$PROJECT_DIR$/../Arrays/results.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../Arrays/src/dev/anksandabhi/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Arrays/src/dev/anksandabhi/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Arrays/src/dev/anksandabhi/arrays/BinarySearch.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Arrays/src/dev/anksandabhi/arrays/BinarySearch.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../JavaStuff/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../JavaStuff/.idea/workspace.xml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -104,7 +102,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/dev/anksandabhi/recursion/SimplestRatInAMaze.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="192">
+            <state relative-caret-position="1605">
               <caret line="108" column="40" selection-start-line="108" selection-start-column="40" selection-end-line="108" selection-end-column="40" />
               <folding>
                 <element signature="imports" expanded="true" />
@@ -168,7 +166,6 @@
     </navigator>
     <panes>
       <pane id="PackagesPane" />
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -180,6 +177,7 @@
           <select />
         </subPane>
       </pane>
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -234,15 +232,14 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="65" y="-4" width="1301" height="772" extended-state="6" />
-    <editor active="true" />
+    <frame x="64" y="-11" width="1303" height="780" extended-state="6" />
     <layout>
       <window_info id="Designer" order="0" />
       <window_info id="UI Designer" order="1" />
       <window_info id="Capture Tool" order="2" />
       <window_info id="Favorites" order="3" side_tool="true" />
       <window_info id="Image Layers" order="4" />
-      <window_info content_ui="combo" id="Project" order="5" visible="true" weight="0.25737053" />
+      <window_info content_ui="combo" id="Project" order="5" visible="true" weight="0.2613546" />
       <window_info id="Structure" order="6" side_tool="true" weight="0.25" />
       <window_info active="true" anchor="bottom" id="Terminal" order="0" visible="true" weight="0.32713178" />
       <window_info anchor="bottom" id="Event Log" order="1" side_tool="true" />
@@ -395,7 +392,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/dev/anksandabhi/recursion/SimplestRatInAMaze.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="192">
+        <state relative-caret-position="1605">
           <caret line="108" column="40" selection-start-line="108" selection-start-column="40" selection-end-line="108" selection-end-column="40" />
           <folding>
             <element signature="imports" expanded="true" />

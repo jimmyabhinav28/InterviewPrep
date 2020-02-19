@@ -1,6 +1,7 @@
 package dev.anksandabhi;
 
 import dev.anksandabhi.arrays.FindOccurenceInSortedArrayWithRepeatedElements;
+import dev.anksandabhi.arrays.FindPivotInSortedRotatedArray;
 
 import java.util.Arrays;
 import java.util.List;
@@ -8,18 +9,10 @@ import java.util.List;
 public class Main {
 
     public static void main(String[] args) {
-       /* Integer[] elements={1,2,4,6,8,10,11};
-        BinarySearch<Integer> integerBinarySearch=new BinarySearch<>();
-        List<Integer> integerList=Arrays.asList(elements);
-//        integerBinarySearch.search(integerList,2, SortOrder.ASCENDING);
-
-        int x=integerBinarySearch.search(integerList,12, SortOrder.ASCENDING,0,integerList.size()-1);
-        System.out.println(x);
-	// write your code here*/
 
 //        testGetFirstOccurenceInSortedArray();
-
-        testGetLastOccurenceInSortedArray();
+//        testGetLastOccurenceInSortedArray();
+        testFindPivotInSortedRotatedArray();
     }
 
     private static void testGetFirstOccurenceInSortedArray()
@@ -39,6 +32,15 @@ public class Main {
         int firstOccurence= FindOccurenceInSortedArrayWithRepeatedElements.findLastOcurrenceOfAnElementInASortedArray(elements,1);
         System.out.println(firstOccurence);
 
+    }
+
+
+    private static void testFindPivotInSortedRotatedArray()
+    {
+        Integer[] elementsArray={1,2,3,4,5,6};
+        Integer[] elementRotated={3,4,5,6,7,1,2};
+        int pivotIndex= FindPivotInSortedRotatedArray.findPivotInSortedPivotedArray(elementRotated);
+        System.out.println(pivotIndex);
     }
 
 

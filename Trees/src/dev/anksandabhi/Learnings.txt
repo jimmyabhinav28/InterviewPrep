@@ -1,0 +1,5 @@
+A binary search tree when traversed inorder, resuls in a sorted (ascending provided lesser goes to left) list
+However there can be many binary search trees which are possible given a sorted list of nodes.
+A height balanced binary search tree can be easily formed given an inorder traversal
+
+Only a single tree is possible given the two traversal results (binary tree or binary search tree)
