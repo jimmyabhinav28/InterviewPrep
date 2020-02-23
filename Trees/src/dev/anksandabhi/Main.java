@@ -1,6 +1,8 @@
 package dev.anksandabhi;
 
 import java.util.ArrayList;
+import java.util.Arrays;
+import java.util.List;
 import java.util.TreeMap;
 
 public class Main {
@@ -12,7 +14,8 @@ public class Main {
 //        testPostorderRecursive();
 //        testLevelOrder();
 //        testIfTreesAreIdentical();
-        testVerticalOrderTraversal();
+//        testVerticalOrderTraversal();
+        testFlattenBinaryTree();
     }
 
     private static BinaryTreeNode<Integer> getIntegerBinaryTree()
@@ -35,7 +38,7 @@ public class Main {
         root.setLeft(node1);
         root.setRight(node2);
 
-        node1.setLeft(node3);
+        //node1.setLeft(node3);
         node1.setRight(node4);
 
         node2.setLeft(node5);
@@ -119,4 +122,20 @@ public class Main {
             System.out.println(result.get(i));
         }
     }
+
+
+    private static void testFlattenBinaryTree()
+    {
+        BinaryTreeNode tree1=getIntegerBinaryTree();
+        tree1=Trees1.flattenBinaryTreeInPlace(tree1);
+        BinaryTreeNode root=tree1;
+        while(root!=null)
+        {
+            System.out.println(root.getValue());
+            root=root.getRight();
+        }
+
+        System.out.println("done");
+    }
+
 }
