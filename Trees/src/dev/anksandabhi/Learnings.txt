@@ -3,3 +3,22 @@ However there can be many binary search trees which are possible given a sorted 
 A height balanced binary search tree can be easily formed given an inorder traversal
 
 Only a single tree is possible given the two traversal results (binary tree or binary search tree)
+
+Given only preorder traversal or postorder traversal, we can find the root of the tree.
+In preorder traversal the root is the first element. In postorder traversal the root is the last element.
+
+Let take example of preorder traversal
+The root is the first element
+The other elements are it's children.
+But how do we know if the remaining elements are part of left subtreee only, or are part of left subtree and right subtree
+only?
+
+Same goes with postorder.
+The last element is the root.
+All preceeding elements are it's children.
+But how do we know if the remaining elements are part of the right subtree only, or are part of left subtree and
+right subtree?
+
+Given an inoder traversal and preorder traversal,
+1) We can ascertain root.
+2) We can check if all elements of this root are in the left subtree only or in both subtrees
