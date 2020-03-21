@@ -26,7 +26,6 @@ public class SparkJob1 {
 
     public static void main(String[] args) throws Exception {
         logger.debug(String.format("Starting %s application.....", APPLICATION_NAME));
-        // Taking input/output files from command line
         String s3InputFile = args[0];
         String s3OutputFile = args[1];
         logger.debug(String.format("Input file: %s, Output file: %s", s3InputFile, s3OutputFile));
