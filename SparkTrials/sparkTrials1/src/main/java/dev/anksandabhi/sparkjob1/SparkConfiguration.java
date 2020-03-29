@@ -1,4 +1,4 @@
-package dev.anksandabhi.sparkjob2;
+package dev.anksandabhi.sparkjob1;
 
 import com.amazonaws.auth.AWSCredentials;
 import org.apache.hadoop.conf.Configuration;

@@ -1,7 +1,7 @@
-package dev.anksandabhi.sparkjob2;
+package dev.anksandabhi.sparkjob1;
 
 import com.amazonaws.auth.AWSCredentials;
-import dev.anksandabhi.sparkjob1.SparkJob1;
+import dev.anksandabhi.AwsUtils;
 import org.apache.log4j.LogManager;
 import org.apache.log4j.Logger;
 import org.apache.spark.api.java.JavaRDD;
@@ -18,14 +18,14 @@ public class SparkWordCount {
 //    System.out.println();
     public static void getWordCount(String s3InputFile)
     {
-        AWSCredentials awsCredentials=AwsUtils.getAwsCredentials();
+        AWSCredentials awsCredentials= AwsUtils.getAwsCredentialsFromMyLocalMachine();
         System.out.println("access key id"+awsCredentials.getAWSAccessKeyId());
         System.out.println("access secret key"+awsCredentials.getAWSSecretKey());
         JavaSparkContext javaSparkContext=SparkConfiguration.getSparkJavContextForS3(awsCredentials,"wc");
         System.out.println("Fetching input data from S3 bucket");
         JavaRDD<String> s3InputRDD = javaSparkContext.textFile(s3InputFile);
-        System.out.println(String.format("Total number of lines to process: %d", s3InputRDD.count()));
 
+        System.out.println(String.format("Total number of lines to process: %d", s3InputRDD.count()));
 
         System.out.println("Preparing words RDD");
         JavaRDD<String> words = s3InputRDD.flatMap(new FlatMapFunction<String, String>() {
